@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% if LANGUAGE_CODE == 'en' %}
+<html lang="en" dir="ltr">
+{% else %}
+<html lang="ar" dir="rtl">
+{% endif %}
+  
+  <head>
+    <style>
+      *{user-select: none;}
+      @media print {html,body {display: none;}}
+      img{pointer-events: none;}
+    </style>
+    <script>  
+        var message="Not Allowed";
+        function clickIE4(){
+            if (event.button==2){
+                alert(message);
+                return false;
+            }
+        }
+        function clickNS4(e){
+            if (document.layers||document.getElementById&&!document.all){
+                if (e.which==2||e.which==3){
+                    alert(message);
+                    return false;
+                }
+            }
+        }
+        if (document.layers){
+            document.captureEvents(Event.MOUSEDOWN);
+            document.onmousedown=clickNS4;
+        }
+        else if (document.all&&!document.getElementById){
+            document.onmousedown=clickIE4;
+        }
+        document.oncontextmenu=new Function("alert(message);return false")
+    </script>
+    {% include "snippets/head.html" %}
+    <title>{% block title %}{% endblock title %}</title>
+  </head>
+  <body>
+    {% include "snippets/navbar.html" %}
+    
+    {% block content %}
+    
+    {% endblock content %}
+    {% include "snippets/footer.html" %}
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    {% include "snippets/scripts.html" %}
+  </body>
+
+</html>

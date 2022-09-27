@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-19 23:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\portfolio\models.py:9
+msgid "name"
+msgstr ""
+
+#: .\portfolio\models.py:10
+msgid "name_ar"
+msgstr ""
+
+#: .\portfolio\models.py:11 .\portfolio\models.py:55
+msgid " description"
+msgstr ""
+
+#: .\portfolio\models.py:12 .\portfolio\models.py:56
+msgid " description_ar"
+msgstr ""
+
+#: .\portfolio\models.py:13 .\portfolio\models.py:102
+msgid "image"
+msgstr ""
+
+#: .\portfolio\models.py:14
+msgid " job"
+msgstr ""
+
+#: .\portfolio\models.py:15
+msgid " job_ar"
+msgstr ""
+
+#: .\portfolio\models.py:16
+msgid " email"
+msgstr ""
+
+#: .\portfolio\models.py:17
+msgid " phone"
+msgstr ""
+
+#: .\portfolio\models.py:19
+msgid "facebook"
+msgstr ""
+
+#: .\portfolio\models.py:20
+msgid "github"
+msgstr ""
+
+#: .\portfolio\models.py:21
+msgid "whatsapp"
+msgstr ""
+
+#: .\portfolio\models.py:22
+msgid "linkedin"
+msgstr ""
+
+#: .\portfolio\models.py:23
+msgid "Resume"
+msgstr ""
+
+#: .\portfolio\models.py:26
+msgid "AboutMe"
+msgstr ""
+
+#: .\portfolio\models.py:33
+msgid "jobs_for"
+msgstr ""
+
+#: .\portfolio\models.py:34 .\portfolio\models.py:42 .\portfolio\models.py:53
+#: .\portfolio\models.py:67
+msgid "title"
+msgstr ""
+
+#: .\portfolio\models.py:35 .\portfolio\models.py:54 .\portfolio\models.py:68
+msgid "title_ar"
+msgstr ""
+
+#: .\portfolio\models.py:37
+msgid "Jobs"
+msgstr ""
+
+#: .\portfolio\models.py:43
+msgid "rate"
+msgstr ""
+
+#: .\portfolio\models.py:46
+msgid "Skill"
+msgstr ""
+
+#: .\portfolio\models.py:57 .\portfolio\models.py:70
+msgid "icon"
+msgstr ""
+
+#: .\portfolio\models.py:60
+msgid "Service"
+msgstr ""
+
+#: .\portfolio\models.py:69
+msgid "number"
+msgstr ""
+
+#: .\portfolio\models.py:73
+msgid "Statistics"
+msgstr ""
+
+#: .\portfolio\models.py:81
+msgid " project_name"
+msgstr ""
+
+#: .\portfolio\models.py:82
+msgid "project_name_ar "
+msgstr ""
+
+#: .\portfolio\models.py:83
+msgid " category"
+msgstr ""
+
+#: .\portfolio\models.py:84
+msgid " category_ar"
+msgstr ""
+
+#: .\portfolio\models.py:85
+msgid " client"
+msgstr ""
+
+#: .\portfolio\models.py:86
+msgid " client_ar"
+msgstr ""
+
+#: .\portfolio\models.py:87
+msgid " project_date"
+msgstr ""
+
+#: .\portfolio\models.py:88
+msgid " project_url"
+msgstr ""
+
+#: .\portfolio\models.py:89
+msgid " project_image"
+msgstr ""
+
+#: .\portfolio\models.py:90
+msgid " project_desc"
+msgstr ""
+
+#: .\portfolio\models.py:91
+msgid " project_desc_ar"
+msgstr ""
+
+#: .\portfolio\models.py:94 .\project\settings.py:116 .\project\settings.py:119
+msgid "Portfolio"
+msgstr ""
+
+#: .\portfolio\models.py:105
+msgid "ProjectImages"
+msgstr ""
+
+#: .\portfolio\templates\home.html:3
+msgid "My Portfolio"
+msgstr ""
+
+#: .\portfolio\templates\home.html:26 .\portfolio\templates\home.html:30
+msgid "Name"
+msgstr ""
+
+#: .\portfolio\templates\home.html:27 .\portfolio\templates\home.html:31
+msgid "Profile"
+msgstr ""
+
+#: .\portfolio\templates\home.html:28
+msgid "Email"
+msgstr ""
+
+#: .\portfolio\templates\home.html:34
+msgid "Phone"
+msgstr ""
+
+#: .\portfolio\templates\home.html:60
+msgid " About me"
+msgstr ""
+
+#: .\portfolio\templates\home.html:105
+msgid " Services"
+msgstr ""
+
+#: .\portfolio\templates\home.html:180
+msgid " My Portfolio"
+msgstr ""
+
+#: .\portfolio\templates\home.html:241
+msgid " Send Message Us"
+msgstr ""
+
+#: .\portfolio\templates\home.html:271
+msgid "Send Message"
+msgstr ""
+
+#: .\portfolio\templates\home.html:280
+msgid " Get in Touch"
+msgstr ""
+
+#: .\portfolio\templates\project-details.html:6
+#: .\portfolio\templates\project-details.html:8
+#: .\portfolio\templates\project-details.html:21
+#: .\portfolio\templates\project-details.html:23
+msgid "Details"
+msgstr ""
+
+#: .\portfolio\templates\project-details.html:42
+#: .\portfolio\templates\project-details.html:44
+msgid "info"
+msgstr ""
+
+#: .\portfolio\templates\project-details.html:49
+#: .\portfolio\templates\project-details.html:52
+msgid "Category"
+msgstr ""
+
+#: .\portfolio\templates\project-details.html:50
+#: .\portfolio\templates\project-details.html:53
+msgid "Client"
+msgstr ""
+
+#: .\portfolio\templates\project-details.html:55
+msgid "Project date"
+msgstr ""
+
+#: .\portfolio\templates\project-details.html:56
+msgid "Project URL"
+msgstr ""
+
+#: .\portfolio\templates\project-details.html:62
+#: .\portfolio\templates\project-details.html:65
+msgid "description"
+msgstr ""
+
+#: .\project\settings.py:113
+msgid "Esraa Roshdy"
+msgstr ""
+
+#: .\project\settings.py:137
+msgid "Welcome to My portfolio"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:11 .\templates\snippets\navbar.html:41
+msgid "Home"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:12 .\templates\snippets\navbar.html:42
+msgid "About"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:13 .\templates\snippets\navbar.html:43
+msgid "Services"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:14
+msgid "My Projects"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:15
+msgid "My Certifications"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:16 .\templates\snippets\navbar.html:46
+msgid "Contact"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:17 .\templates\snippets\navbar.html:47
+msgid "Languages"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:26 .\templates\snippets\navbar.html:56
+msgid "Arabic"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:36 .\templates\snippets\navbar.html:66
+msgid "English"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:44
+msgid "Work"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:45
+msgid "Blog"
+msgstr ""

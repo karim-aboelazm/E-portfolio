@@ -5,17 +5,13 @@ from django.conf.urls.static import static
 from django.conf.urls.i18n import i18n_patterns
 from django.utils.translation import gettext_lazy as _
 import django
-from django.views.static import serve
-from django.conf.urls import url 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("portfolio.urls", namespace="porto")),
     path('i18n/',include('django.conf.urls.i18n')),
-    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
-    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
-
+   
 
 ]
 

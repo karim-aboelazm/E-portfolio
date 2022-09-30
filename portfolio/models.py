@@ -1,7 +1,3 @@
-from distutils.command import upload
-from email.mime import image
-from http import client
-from tkinter import Image
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
